@@ -11,7 +11,10 @@ public class PayLoadGenerator {
 		log.info("Inside PayloadConverter function");
 		String filePath = System.getProperty("user.dir")+"\\resources\\"+filename;
 		try {
+			System.out.println(Files.readAllBytes(Paths.get(filePath)));
 			return new String(Files.readAllBytes(Paths.get(filePath)));
+			
+			
 		} catch (Exception e) {
 			log.error(e);
 			return null;

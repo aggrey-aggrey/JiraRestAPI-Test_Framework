@@ -1,4 +1,4 @@
-package com.mymaisha.restassuredframework;
+package com.mymaisha.restassuredframework.base;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

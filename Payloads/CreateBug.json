@@ -1,0 +1,14 @@
+{
+    "fields": {
+       "project":
+       { 
+          "key": "MRT"
+       },
+       "summary": "Create a bug from the automated rest framework.",
+       "description": "This is an issue i have created via my automated rest framework",
+       "issuetype": {
+          "name": "Bug"
+       },       
+       "customfield_11050" : "Value that we're putting into a Free Text Field."
+   }
+}
